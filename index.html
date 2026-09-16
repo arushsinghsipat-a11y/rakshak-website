@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rakshak is a modern community safety platform that helps people stay prepared, report issues, and receive trusted alerts in real time."
+    />
+    <title>Rakshak | Community Safety Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav-wrap">
+          <div class="brand" aria-label="Rakshak home">
+            <div class="brand-mark">R</div>
+            <span>Rakshak</span>
+          </div>
+
+          <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#features">Features</a>
+            <a href="#safety">Safety</a>
+            <a href="#updates">Updates</a>
+            <a href="#contact">Contact</a>
+            <a href="#report" class="nav-cta">Report now</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">Community safety, strengthened</span>
+              <h1>Protect your neighborhood with real-time awareness.</h1>
+              <p>
+                Rakshak brings residents, local teams, and emergency responders together
+                to share trusted updates, report incidents fast, and stay ready when it matters most.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#report" class="primary-btn">Report an issue</a>
+                <a href="#features" class="secondary-btn">Explore features</a>
+              </div>
+
+              <div class="hero-proof">
+                <div>
+                  <strong>12k+</strong>
+                  <span>community members</span>
+                </div>
+                <div>
+                  <strong>4.8/5</strong>
+                  <span>trusted experience</span>
+                </div>
+                <div>
+                  <strong>24/7</strong>
+                  <span>monitoring coverage</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-panel" aria-label="Safety dashboard preview">
+              <div class="panel-card status-card">
+                <div class="status-header">
+                  <span class="status-dot"></span>
+                  <span>Live status</span>
+                </div>
+                <div class="status-level">Level 2 alert</div>
+                <p>Weather advisory active near North district.</p>
+              </div>
+
+              <div class="mini-grid">
+                <div class="mini-stat warning">
+                  <span class="label">Open reports</span>
+                  <strong>18</strong>
+                </div>
+                <div class="mini-stat safe">
+                  <span class="label">Safe routes</span>
+                  <strong>9</strong>
+                </div>
+              </div>
+
+              <div class="incident-list">
+                <div class="incident-item">
+                  <span class="type type-warning">Traffic</span>
+                  <div>
+                    <strong>Road work</strong>
+                    <small>2 min ago</small>
+                  </div>
+                </div>
+                <div class="incident-item">
+                  <span class="type type-safe">Medical</span>
+                  <div>
+                    <strong>Mobile clinic</strong>
+                    <small>18 min ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Why Rakshak</span>
+              <h2>Everything communities need to respond faster.</h2>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="icon">⚡</div>
+                <h3>Instant reporting</h3>
+                <p>Submit safety concerns or incidents with location details in just a few taps.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon">🛡️</div>
+                <h3>Verified alerts</h3>
+                <p>Receive trusted updates from local authorities and neighborhood responders.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon">📍</div>
+                <h3>Smart routing</h3>
+                <p>Navigate safe routes, access critical resources, and respond with confidence.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon">🤝</div>
+                <h3>Community coordination</h3>
+                <p>Keep volunteers, local groups, and residents aligned during emergencies.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="safety" class="section alt-section">
+          <div class="container two-col">
+            <div>
+              <span class="eyebrow">Preparedness</span>
+              <h2>Build a safer routine for you and your neighbors.</h2>
+              <p>
+                Rakshak helps residents stay informed, organized, and ready. Create a simple routine for response and discover the right action when a situation escalates.
+              </p>
+            </div>
+
+            <div class="checklist-panel">
+              <h3>Safety checklist</h3>
+              <ul class="checklist" aria-label="Safety checklist">
+                <li><input type="checkbox" checked /> Save emergency contacts</li>
+                <li><input type="checkbox" checked /> Share your local support network</li>
+                <li><input type="checkbox" /> Review safe routes to local shelters</li>
+                <li><input type="checkbox" /> Keep a first-aid kit ready</li>
+                <li><input type="checkbox" /> Confirm local alert preferences</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="updates" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Recent updates</span>
+              <h2>Live neighborhood insight</h2>
+            </div>
+
+            <div class="feed-grid">
+              <div class="feed-card urgent">
+                <span class="feed-tag">Critical</span>
+                <h3>Flood barrier checks underway</h3>
+                <p>Teams are monitoring vulnerable streets in the western corridor after heavy rainfall.</p>
+                <small>Updated 12 minutes ago</small>
+              </div>
+
+              <div class="feed-card warning">
+                <span class="feed-tag">Alert</span>
+                <h3>Electricity restoration in progress</h3>
+                <p>Backup power and repair teams are addressing outages reported after 8 PM.</p>
+                <small>Updated 27 minutes ago</small>
+              </div>
+
+              <div class="feed-card safe">
+                <span class="feed-tag">Safe</span>
+                <h3>Community health drive open</h3>
+                <p>Mobile care station is active at the central park and accepting walk-ins.</p>
+                <small>Updated 46 minutes ago</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="report" class="section cta-section">
+          <div class="container cta-box">
+            <div>
+              <span class="eyebrow">Need support?</span>
+              <h2>Report a concern and let your local response network know.</h2>
+            </div>
+            <a href="mailto:help@rakshak.example" class="primary-btn">Contact support</a>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="site-footer">
+        <div class="container footer-wrap">
+          <div>
+            <div class="brand footer-brand">
+              <div class="brand-mark">R</div>
+              <span>Rakshak</span>
+            </div>
+            <p>Building safer communities through timely information and coordinated action.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#features">Features</a>
+            <a href="#safety">Safety</a>
+            <a href="#updates">Updates</a>
+            <a href="mailto:help@rakshak.example">Email</a>
+          </div>
+        </div>
+
+        <div class="container footer-bottom">
+          <span>© <span id="year"></span> Rakshak</span>
+          <span>Prepared for every community.</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
