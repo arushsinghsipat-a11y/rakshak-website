@@ -1,32 +1,21 @@
-# Rakshak Website
+# Rakshak Tasks
 
-A modern, responsive community safety landing page app built for the `rakshak-website` repository.
+A responsive to-do list application with local storage persistence.
 
 ## Features
 
-- Hero section with strong safety messaging
-- Responsive navigation and mobile menu
-- Community safety feature cards
-- Preparedness checklist interactions
-- Live-style update feed
-- Clean contact/CTA section
+- Add, complete, and delete tasks
+- Filter by all, active, or completed tasks
+- Clear all completed tasks
+- Tasks persist across browser refreshes using `localStorage`
+- Responsive and keyboard-friendly interface
 
 ## Run locally
 
-Open `index.html` directly in a browser, or serve it locally:
+Open `index.html` in a browser, or run a local server:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then visit:
-
-```text
-http://localhost:8000
-```
-
-## Files
-
-- `index.html` — page structure
-- `styles.css` — layout and styling
-- `script.js` — mobile menu and checklist interactions
+Then visit <http://localhost:8000>.
